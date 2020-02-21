@@ -1,12 +1,15 @@
 center{
     display: block;
     position: relative;
-    top: 180px;
+    top: 50px;
 }
  #logo{
     margin: 20px;
 
  }
+
+
+ /* ---search box--- */
  .searchContainer {
     display: flex;
     width: 560px;
@@ -32,7 +35,7 @@ center{
      font-size: 16px;
      flex: 1;
      margin: 5px 5px;
-     border-right: 2px solid #bdbdbd;
+     border-right: 1px solid #bdbdbd;
  }
 
  .searchIcon{
@@ -79,3 +82,80 @@ center{
 
  }
  
+/* navigation bar*/
+
+ 
+header{
+    height: 100px;
+
+}
+ .navContainer{
+     margin: 0 auto;
+ }
+
+ 
+ nav{
+     float: right;
+ }
+ 
+ nav ul{
+     margin: 0;
+     padding-right: 15px;
+     list-style: none;
+ }
+
+ nav li{
+     display: inline-block;
+     margin-left: 15px;
+     padding-top: 8px;
+     font-size: 13px;
+     font-family: Arial, sans-serif;
+     }
+ 
+ nav a{
+     color: rgba(0, 0, 0, 0.87);
+     text-decoration: none;
+ }
+ nav a:hover{
+     text-decoration: underline;
+     opacity: 0.85;
+ }
+ nav button{
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #4387fd;
+    border: 1px solid ;
+    border-radius: 3px;
+    font-weight: bold;
+    
+
+}
+#srpski{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+#srpski a{
+    text-decoration: none;
+}
+#srpski a:hover{
+    text-decoration: underline;
+}
+/*------- footer ---------*/
+.footerNav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: rgb(34,34,34);
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin-left: 30px;
+    
+
+}
+
