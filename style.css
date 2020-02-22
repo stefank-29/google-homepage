@@ -149,13 +149,46 @@ header{
     bottom: 0;
     width: 100%;
     line-height: 40px;
+    
     font-size: 13px;
     font-family: Arial, sans-serif;
-    color: rgb(34,34,34);
+    color: #5f6368;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
-    margin-left: 30px;
     
 
 }
+.upperbar{
+    display: block; 
+    line-height: 40px;
+    font-size: 15px;
+    width: auto;
+    text-align: left;
+    padding-left: 27px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lnav{
+    float: left;
+}
+.lnav a{
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 27px;
+}
+.lnav a:hover{
+    text-decoration: underline;
+}
 
+
+.rnav{
+    float: right;
+    margin-right: 30px;
+}
+.rnav a{
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 27px;
+}
+.rnav a:hover{
+    text-decoration: underline;
+}
